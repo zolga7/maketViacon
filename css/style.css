@@ -1,0 +1,285 @@
+@charset "utf-8";
+@import url(reset.css);
+/* CSS Document */
+
+body {
+	font: normal 12px Tahoma, serif;
+	color: #313131;
+}
+
+.container {
+	margin: 0 auto;
+	min-width: 970px;
+	max-width: 1280px;
+}
+
+.header-main {
+	background: url(../images/head-bg-main.jpg) left top repeat-x;
+	height: 181px;
+}
+
+.header {
+	background: url(../images/head-bg-road.png)  left top no-repeat;
+	height: 181px;
+	position: relative;
+}
+
+.ico {
+	margin: 35px 0 0  20px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.ico li {
+	margin: 0 0 20px 0;
+}
+
+.head-form {
+	width: 290px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	margin: 1px 0 0 0;
+	padding: 10px 0 10px 30px;
+	border-radius: 0 0 0 10px;
+	background: #eee;
+	overflow: hidden;
+}
+
+.head-form input {
+	float: left;
+}
+
+.search-form {
+	width: 150px;
+	height: 18px;
+	margin: 0 10px 0 0;
+	background: #fff;
+	border: 1px solid #a5acb2;
+}
+
+.menu {
+	float: right;
+	margin: 90px 0 0 0;
+	padding: 0 70px 2px 0;
+	border-bottom: 3px solid #93b0c8;
+}
+
+.menu li {
+	float: left;
+	line-height: 1.5;
+	padding: 0 10px 0 10px;
+	border-left: 1px solid #ebf0f5;
+	font: bold 15px "Trebuchet MS", Verdana, sans-serif;
+	text-transform: uppercase;
+}
+
+.menu li a {
+	color: #ebf0f5;
+	text-decoration: none;
+}
+
+.menu li a:hover {
+	text-decoration:underline;
+}
+
+.menu li:first-child {
+	border-left: none;
+	padding-left: 0;
+}
+
+.content-under {
+	background: url(../images/content-bg-under.png) top repeat-x;
+}
+
+.content-main {
+	width: 100%;
+	background: url(../images/content-bg.png) right top no-repeat;
+}
+
+.logo {
+	text-align: right;
+	padding: 10px 0 0 0;
+}
+
+.content {
+	padding: 0 30px 0 30px;
+	vertical-align: top;
+}
+
+
+.content h1 {
+	margin: 0 0 10px 0;
+	font: normal 24px "Trebuchet MS", Verdana, sans-serif;
+	color: #1c56a0;
+}
+
+.content p {
+	margin: 0 0 20px 0;
+	text-align: justify;
+}
+
+.print {
+	font: 10px "Trebuchet MS", Verdana, sans-serif;
+	text-align: right!important;
+}
+
+.print a {
+	color: #1c56a0;
+}
+
+.print a:hover {
+	text-decoration: none;
+}
+
+.print img {
+	position: relative;
+	top: 8px;
+	margin: 0 0 0 10px;
+}
+
+.right-bar {
+	vertical-align: top;
+	width: 480px;
+	padding: 20px 30px 0 0;
+	
+}
+
+.right-zag {
+	margin: -69px 0 20px 0;
+	padding: 20px 0 10px 20px;
+	z-index: 100;
+	background: url(../images/right-zag-bg.png) left top no-repeat;
+	position: relative;
+	font: normal 18px "Trebuchet MS", Verdana, sans-serif;
+	color: #1c56a0;
+	text-decoration: underline;
+}
+
+.product-main {
+	overflow: hidden;
+	margin: 0 30px 20px 0;
+}
+
+.product-main img {
+	float: left;
+	margin: 0 10px;
+}
+
+.product-main h1 {
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.product-main a {
+	color: #1c56a0;
+}
+
+.product-main a:hover {
+	text-decoration: none;
+}
+
+.product-main p {
+	font-size: 10;
+	margin: 0 0 0 191px;
+	line-height: 1.1;
+}
+
+.all-product {
+	margin: 0 30px 0 10px;
+	font-size: 10px;
+	font-weight: bold;
+	text-align: right;
+	border-top: 1px solid #c9d7e8;
+}
+
+.all-product a {
+	color: #1c56a0;
+}
+
+.all-product a:hover {
+	text-decoration: none;
+}
+
+.right-bot {
+	background: url(../images/contact-bg.jpg) right bottom no-repeat;
+	vertical-align: bottom;
+	padding: 0 30px 0 0;
+}
+
+.contact {
+	text-align: right;
+	margin: 20px 30px 0 0;
+	padding: 0 0 230px 0;
+	position: relative;
+}
+
+.contact h3 {
+	margin: 0 0 10px 0;
+	font: bold 12px "Trebuchet MS", sans-serif;
+	color: #1c56a0;
+}
+
+.contact p {
+	margin: 20px 0 0 0;
+	font-size: 11px;
+	color: #3d3d3d;
+	line-height: 1.2;
+}
+
+.contact p span {
+	font-size: 12px;
+	font-weight: bold;
+	color: #1c56a0;
+}
+
+.contact a {
+	color: #1c56a0;
+}
+
+.contact a:hover {
+	text-decoration: none;
+}
+
+.toper {
+	position: absolute;
+	right: -20px;
+	bottom: 5px;
+}
+
+.footer {
+	background: #eeeeee;
+	overflow: hidden;
+}
+
+.atstar {
+	float: left;
+	margin: 35px 0 0 30px;
+}
+
+.copy {
+	float: left;
+	font-size: 11px;
+	color: #6d6e71;
+	text-align: right;
+	margin: 35px 0 0 28%;
+}
+
+.copy a {
+	color: #1c56a0;
+}
+
+.copy a:hover {
+	text-decoration: none;
+}
+
+.ftr-link {
+	float: right;
+	margin: 20px 100px 10px 0;
+}
+
+.ftr-link img {
+	margin: 0 5px 5px 0;
+}
+
